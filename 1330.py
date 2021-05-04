@@ -1,4 +1,4 @@
-values = input()
+values = 
 values = values.split()
 a = int(values[0])
 b = int(values[1])
