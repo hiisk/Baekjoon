@@ -7,7 +7,6 @@ for i in range(len(tmp)):
 for i in range(len(count_tmp)):
     if count_tmp[i] == max(count_tmp):
         cnt +=1
-print(cnt)
 if cnt > 1:
     print("?")
 else:
