@@ -2,7 +2,6 @@ import sys
 num = int(input())
 
 arr = []
-cnt = 1
 
 for _ in range(num):
     x = sys.stdin.readline()
