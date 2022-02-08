@@ -1,7 +1,7 @@
 from itertools import combinations
 
 N, M = map(int, input().split())
-P = combinations(range(1, N+1), M)
+C = combinations(range(1, N+1), M)
 
-for i in P:
+for i in C:
     print(' '.join(map(str, i)))
