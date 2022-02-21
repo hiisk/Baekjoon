@@ -6,13 +6,13 @@ answer = combinations(tmp, L)
 
 
 for i in answer:
-    num_v = 0
-    num_c = 0
+    mo = 0
+    ja = 0
     for c in i:
-        if c in "aeiou": #모음이 있는지 확인
-            num_v +=1
+        if c in "aeiou":
+            mo +=1
         else:
-            num_c +=1
+            ja +=1
     
-    if num_v >=1 and num_c >=2:
+    if mo >=1 and ja >=2:
         print(''.join(i))
