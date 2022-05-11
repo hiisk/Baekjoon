@@ -9,13 +9,13 @@ class Main{
         while (true){
         	StringTokenizer st = new StringTokenizer(br.readLine(), " ");
             
-            int a = Integer.parseInt(st.nextToken());
-            int b = Integer.parseInt(st.nextToken());
-            
-            if (a == 0 && b == 0)
-            	break;
-            
-        	bw.write(a+b+"\n");
+                int a = Integer.parseInt(st.nextToken());
+                int b = Integer.parseInt(st.nextToken());
+
+                if (a == 0 && b == 0)
+                    break;
+
+            	bw.write(a+b+"\n");
         }
         bw.flush();
     }
