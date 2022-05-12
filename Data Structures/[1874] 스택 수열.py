@@ -4,14 +4,14 @@ n = int(sys.stdin.readline())
 stack = []
 answer = []
 flag = True
-cur = 1
+tmp = 1
 
 for i in range(n):
     num = int(sys.stdin.readline())
-    while cur <= num:
-        stack.append(cur)
+    while tmp <= num:
+        stack.append(tmp)
         answer.append("+")
-        cur += 1
+        tmp += 1
 
     if stack[-1] == num:
         stack.pop()
