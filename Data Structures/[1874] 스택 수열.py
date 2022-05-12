@@ -22,5 +22,4 @@ for i in range(n):
         break               
 
 if flag:
-    for i in answer:
-        print(i)
+    print(*answer, sep="\n")
