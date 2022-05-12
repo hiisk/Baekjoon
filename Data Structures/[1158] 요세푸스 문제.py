@@ -1,6 +1,6 @@
 import sys
 N, K = map(int, sys.stdin.readline().split())
-arr = list(range(1,8,1))
+arr = [i for i in range(1,N+1)] 
 
 answer = [] 
 num = 0 
