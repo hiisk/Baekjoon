@@ -9,11 +9,11 @@ for i in range(num):
     cnt = 0
 
     while deq:
-        best = max(deq)  
+        target = max(deq)  
         front = deq.popleft()
         m -= 1
 
-        if best == front:
+        if target == front:
             cnt += 1
             if m < 0:
                 print(cnt)
