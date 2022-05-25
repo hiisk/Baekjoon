@@ -2,7 +2,6 @@ import sys
 from collections import deque
 
 T = int(sys.stdin.readline())
-count = 0
 
 def bfs(graph, x, y):
     dx = [-1,1,0,0]
