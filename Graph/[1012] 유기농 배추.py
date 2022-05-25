@@ -25,8 +25,6 @@ def bfs(graph, x, y):
             if graph[nx][ny] == 1:
                 graph[nx][ny] = 0
                 deq.append((nx,ny))
-        if len(deq) == 0:
-            count+=1
     return count
 
 for _ in range(T):
@@ -39,5 +37,6 @@ for _ in range(T):
     for i in range(M):
         for j in range(N):
             if graph[i][j]==1:
-                bfs(graph, i, j) 
+                bfs(graph, i, j)
+                count+=1
     print(count)
