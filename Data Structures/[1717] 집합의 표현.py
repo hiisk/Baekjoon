@@ -35,6 +35,7 @@ for _ in range(m):
 # ========================================
 import sys
 sys.setrecursionlimit(1000000)
+
 input = sys.stdin.readline
 n, m = map(int, input().split())
 parent = [i for i in range(n + 1)]
