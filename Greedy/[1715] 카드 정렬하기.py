@@ -1,7 +1,7 @@
 import heapq
 import sys
 
-n = int(int(sys.stdin.readline()))
+n = int(sys.stdin.readline())
 arr = []
 for _ in range(n):
     heapq.heappush(arr, int(sys.stdin.readline()))
